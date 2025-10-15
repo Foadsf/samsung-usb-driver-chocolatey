@@ -26,15 +26,15 @@ Samsung USB Driver installer not found!
 
 Please download the installer manually:
 1. Visit: https://developer.samsung.com/android-usb-driver
-2. Download: SAMSUNG_USB_Driver_for_Mobile_Phones_v1.9.0.0.exe
-3. Place it in one of these locations:
+   OR download from: https://github.com/Foadsf/samsung-usb-driver-chocolatey/releases/download/v1.9.0.0/SAMSUNG_USB_Driver_for_Mobile_Phones_v1.9.0.0.exe
+2. Place it in one of these locations:
    - $toolsDir
    - $env:TEMP
    - $env:USERPROFILE\Downloads
 
 Then run: choco install samsung-usb-driver -y
 "@
-    throw "Installer file not found. Please download manually from Samsung Developer portal."
+    throw "Installer file not found. Please download manually."
 }
 
 # Verify checksum
@@ -45,7 +45,7 @@ if ($actualChecksum -ne $expectedChecksum) {
     Write-Warning "Checksum mismatch!"
     Write-Warning "Expected: $expectedChecksum"
     Write-Warning "Actual:   $actualChecksum"
-    throw "Checksum verification failed. Please download the correct version from Samsung."
+    throw "Checksum verification failed. Please download the correct version."
 }
 
 Write-Host "Checksum verified successfully."

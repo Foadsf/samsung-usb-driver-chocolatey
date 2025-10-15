@@ -32,7 +32,7 @@ Due to Samsung's dynamic download URLs and authentication requirements, **you mu
    - `$env:TEMP\`
    - `$env:USERPROFILE\Downloads\`
 
-Alternatively, you can download the installer from this repository's [Releases page](https://github.com/YOUR_USERNAME/samsung-usb-driver-chocolatey/releases) and place it in one of the above locations.
+Alternatively, you can download the installer from this repository's [Releases page](https://github.com/Foadsf/samsung-usb-driver-chocolatey/releases) and place it in one of the above locations.
 
 ### Package Parameters
 
@@ -47,11 +47,11 @@ choco uninstall samsung-usb-driver
 
 - [Official Samsung USB Driver Page](https://developer.samsung.com/android-usb-driver)
 - [Chocolatey Package](https://community.chocolatey.org/packages/samsung-usb-driver)
-- [Package Source](https://github.com/YOUR_USERNAME/samsung-usb-driver-chocolatey)
+- [Package Source](https://github.com/Foadsf/samsung-usb-driver-chocolatey)
 
 ## Maintainers
 
-- [YOUR_NAME](https://github.com/YOUR_USERNAME)
+- [Foad S. Farimani](https://github.com/Foadsf)
 
 ## Version History
 

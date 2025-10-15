@@ -1,0 +1,27 @@
+# Chocolatey
+*.nupkg
+*.nuspec.backup
+
+# Installer binaries
+tools/*.exe
+tools/*.msi
+tools/*.zip
+
+# Test scripts
+test-*.ps1
+*-sandbox.wsb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log

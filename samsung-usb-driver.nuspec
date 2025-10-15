@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>samsung-usb-driver</id>
+    <version>1.9.0.0</version>
+    <title>SAMSUNG USB Driver for Mobile Phones</title>
+    <authors>SAMSUNG</authors>
+    <owners>fsfarimani</owners>
+    <projectUrl>https://developer.samsung.com/android-usb-driver</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Samsung Android USB Driver for Windows enables connectivity between Samsung Android devices and Windows PCs for development and file transfer purposes.
+
+**Note:** This package embeds the v1.9.0.0 installer. The installer is approximately 35MB and will be downloaded when you install this package.</description>
+    <summary>USB driver for Samsung Android devices on Windows</summary>
+    <copyright>© SAMSUNG Electronics Co., Ltd.</copyright>
+    <tags>samsung usb driver android mobile development adb fastboot</tags>
+    <packageSourceUrl>https://github.com/Foadsf/samsung-usb-driver-chocolatey</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
